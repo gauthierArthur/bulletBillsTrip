@@ -34,7 +34,7 @@ var myGameArea = {
     stop : function() {
         loose = true;
         clearInterval(this.interval);
-        myGamePiece.image.src = "explosion.gif";
+        myGamePiece.image.src = "explosion.png";
         crashSound.play();
         myMusic.stop();
          console.log("Looser");
